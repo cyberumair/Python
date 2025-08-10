@@ -1,0 +1,17 @@
+
+`mkdir -p ~/.config/autostart`
+
+`micro ~/.config/autostart/notify-hourly.desktop`
+
+Paste Content:
+
+[Desktop Entry]
+Type=Application
+Exec=python3 main.py
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name=Hourly Cyber Reminder
+Comment=Sends hourly focus notifications
+
+`chmod +x main.py`
